@@ -1,0 +1,13 @@
+.text-notes{
+	font-family: inherit;
+	font-size: 18px;
+	background-color: #263238;
+	width: 80%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: none;
+}
+
+.text-notes[value] {
+	color: #f7f7f7;
+}

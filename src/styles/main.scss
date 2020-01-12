@@ -1,0 +1,26 @@
+@import '../atomic/atoms/Button/Button.scss';
+@import '../atomic/molecules/Note/Note.scss';
+@import '../atomic/molecules/Notes/Notes.scss';
+@import '../atomic/atoms/Inputtext/InputText.scss';
+@import '../atomic/molecules/Auth/Login.scss';
+@import '../App.scss';
+@import '../atomic/atoms/Text/Text.scss';
+
+
+body {
+  font-family: 'Bubblegum Sans';
+  background-color: #546e7a;
+  color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  background-color: #263238;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}

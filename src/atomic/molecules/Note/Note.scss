@@ -1,0 +1,14 @@
+.date {
+	position: absolute;
+	font-size: 10px;
+	height: 20px;
+	line-height: 20px;
+	bottom: 0;
+}
+
+.note-title {
+	max-width: 255px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

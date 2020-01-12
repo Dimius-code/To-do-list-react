@@ -1,0 +1,21 @@
+.container {
+	width: 100%;
+	max-width: 360px;
+	margin: 0 auto;
+	box-shadow: 0 0 3px rgba(0,0,0, .5);
+}
+.notes{
+	background-color: #37474f;
+	min-height: 60px;
+	padding: 0 0 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.notes:nth-child(2n){
+	background-color: #455a64;
+}
